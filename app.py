@@ -20,15 +20,17 @@ st.sidebar.markdown(
 )
 
 
-
 m = leafmap.Map()
 
 before = "https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-07-01.tif"
 after = "https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-09-13.tif"
-m.split_map(
-    left_layer=before, right_layer=after, left_label="Antes (July 1, 2023)", right_label="Depois (September 13, 2023)"
-    )
 
+m.split_map(
+    left_layer=before,
+    right_layer=after,
+    left_label="Antes (1 de Julho de 2023)",
+    right_label="Depois (13 de Setembro de 2023)"
+)
 
 with st.spinner("Carregando o mapa, isso pode levar alguns segundos dependendo da conexão..."):
     m.to_streamlit(height=700)
