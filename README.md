@@ -66,7 +66,7 @@ Este projeto visa a visualização interativa das inundações ocorridas na Líb
 ## 🎨 Demonstração  
 
 ### Mapa Dividido (Split Map)  
-<img src="assets/images/split-map-example.png" width="100%">
+<img src="assets/split-map.jpg" width="100%">
 
 *Nota: O mapa interativo permite alternar camadas e ajustar o zoom para análise detalhada.*  
 
